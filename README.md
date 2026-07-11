@@ -53,8 +53,23 @@ Save favorite places, toggle favorites, and retrieve saved list.
 -Admin Dashboard
 Dashboard statistics (users, places, trips, scans) and full place/user management.
 <img width="1661" height="550" alt="4" src="https://github.com/user-attachments/assets/ce50fa9f-e520-4835-bbe1-e44d6c9f0d6a" />
--Backend Demo
-Swagger UI: https://localhost:7022/swagger
+
+- How to Run Locally
+1. Clone the repo
+   - git clone https://github.com/enasali61/RahhalTravelProgram.git
+2. Update appsettings.json with your own keys:
+   - SQL Server connection string
+   - Redis connection string
+   - Stripe secret key + webhook secret
+   - SendGrid API key
+   - JWT secret key
+3. Apply database migrations
+   - update-database
+4. Run the project
+   - dotnet run
+5. Open Swagger UI
+   - https://localhost:7022/swagger
+
 -Project Screenshots
 <img width="900" height="868" alt="Screenshot (335)" src="https://github.com/user-attachments/assets/24efc5aa-3cc3-4bc6-9a02-f67de7718dc1" />
 <img width="894" height="879" alt="Screenshot (336)" src="https://github.com/user-attachments/assets/3e56b027-fc75-45ea-a3f0-d6fc6d05a944" />
