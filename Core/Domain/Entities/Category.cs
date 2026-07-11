@@ -1,4 +1,6 @@
-﻿namespace Domain.Entities
+﻿using Domain.Entities.TripAndPlaces;
+
+namespace Domain.Entities
 {
     public class Category : BaseEntity
     {

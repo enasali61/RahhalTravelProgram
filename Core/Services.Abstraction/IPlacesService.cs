@@ -4,7 +4,9 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
+using Shared;
 using Shared.DTOs;
+using Shared.DTOs.PlacesDto;
 
 namespace Services.Abstraction
 {
@@ -12,26 +14,25 @@ namespace Services.Abstraction
     {
         
         // basics
-        Task<PlacesResultDTO> GetPlaceByIdAsync(int id);
-        Task<IEnumerable<PlacesResultDTO>> GetAllPlacesAsync();
+        Task<PlacesResultDTO> GetPlaceByIdAsync(int id, string? requestedLanguage = null);
+        Task<PaginatedResult<PlacesResultDTO>> GetAllPlacesAsync(PlacesSpecParams placesSpecParams, string? requestedLanguage = null);
 
         // for search
+        Task<PlacesResultDTO> GetPlaceByNameEnAsync(string nameEn, string? requestedLanguage = null);
         Task<IEnumerable<PlacesResultDTO>> GetPlacesByCategoryAsync(int categoryId);
-        Task<IEnumerable<PlacesResultDTO>> SearchPlacesAsync(string keyword);
-        Task<IEnumerable<PlacesResultDTO>> GetPlacesByLocationAsync(string location);
+        Task<IEnumerable<PlacesResultDTO>> SearchPlacesAsync(string keyword, string? requestedLanguage = "en");
 
         // counting
-        //Task<IEnumerable<string>> GetAllCategoriesAsync();
-      //  Task<Dictionary<string, int>> GetPlacesCountByCategoryAsync();
-        Task<IEnumerable<PlacesResultDTO>> GetTopRatedPlacesAsync(int count = 10);
+        Task<IEnumerable<PlacesResultDTO>> GetTopRatedPlacesAsync(int count, string? language);
 
         //// management
-        //Task<PlacesResultDTO> CreatePlaceAsync(CreatePlacetDTO createDto);
-        //Task<PlacesResultDTO> UpdatePlaceAsync(int id, UpdatePlaceDto updateDto);
-        //Task<bool> DeletePlaceAsync(int id);
-       
+        Task<PlacesResultDTO> CreatePlaceAsync(CreatePlaceDto createDto);
+        Task<PlacesResultDTO> UpdatePlaceAsync(int id, UpdatePlaceDto updateDto);
+        Task<bool> DeletePlaceAsync(int id);
+        Task<PaginatedResult<AdminPlaceDto>> GetAllPlacesForAdminAsync(PlacesSpecParams placesSpecParams, string? requestedLanguage = "en");
         // for users
-        //Task<bool> TogglePlaceFavoriteAsync(int placeId, int userId);  // user chooses place as his favourite 
-        //Task<IEnumerable<PlacesResultDTO>> GetUserFavoritePlacesAsync(int userId); // user sees his fav places all in one place
+        Task<bool> TogglePlaceFavoriteAsync(int placeId, int userId);  // user chooses place as his favourite 
+        Task<IEnumerable<PlacesResultDTO>> GetUserFavoritePlacesAsync(string? language = null); // user sees his fav places all in one place
+        Task<string> UploadPlaceImageAsync(int placeId, Stream fileStream, string fileName, string contentType);
     }
 }

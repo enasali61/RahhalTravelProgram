@@ -13,23 +13,32 @@ namespace Presentation
     [Authorize]
     public class BasketController(IServiceManager serviceManager) : BaseApiController
     {
-        [HttpGet("{id}")]
-        public async Task<ActionResult<BasketDto>> GetBasket(string id)
+
+        [HttpGet]
+        public async Task<ActionResult<BasketDto>> GetBasket([FromQuery]string? language = "en", [FromQuery] int travelersCount = 1)
         {
-            var basket = await serviceManager.BasketService.GetBasketAsync(id);
-            return Ok( basket);
-        }
-        [HttpPost]
-        public async Task<ActionResult<BasketDto>> UpdateBasket(BasketDto basketDto)
-        {
-            var basket = await serviceManager.BasketService.CreateOrUpdateBasketAsync(basketDto);
+            var basket = await serviceManager.BasketService.GetBasketAsync(language, travelersCount);
             return Ok(basket);
         }
-        [HttpDelete("{id}")]
 
-        public async Task<ActionResult> DeleteBasket(string id)
+        [HttpPost("items")]
+        public async Task<ActionResult<BasketDto>> AddItem([FromBody] AddToBasketDto itemDto, [FromQuery] string? language = "en", [FromQuery] int travelersCount = 1)
         {
-           await serviceManager.BasketService.DeleteBasketAsync(id);
+            var basket = await serviceManager.BasketService.AddItemAsync(itemDto,language,travelersCount);
+            return Ok(basket);
+        }
+
+        [HttpDelete("items/{itemId}")]
+        public async Task<IActionResult> RemoveItem(int itemId)
+        {
+            await serviceManager.BasketService.RemoveItemAsync(itemId);
+            return NoContent();
+        }
+
+        [HttpDelete]
+        public async Task<IActionResult> ClearBasket()
+        {
+            await serviceManager.BasketService.ClearBasketAsync();
             return NoContent();
         }
     }

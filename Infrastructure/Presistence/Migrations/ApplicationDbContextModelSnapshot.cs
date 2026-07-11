@@ -17,10 +17,7 @@ namespace Presistence.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "8.0.26")
-                .HasAnnotation("Proxies:ChangeTracking", false)
-                .HasAnnotation("Proxies:CheckEquality", false)
-                .HasAnnotation("Proxies:LazyLoading", true)
+                .HasAnnotation("ProductVersion", "8.0.27")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
@@ -46,7 +43,75 @@ namespace Presistence.Migrations
                     b.ToTable("Categories");
                 });
 
-            modelBuilder.Entity("Domain.Entities.PlaceImages", b =>
+            modelBuilder.Entity("Domain.Entities.SubEntity.SubscriptionPlan", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<int>("DurationWeeks")
+                        .HasColumnType("int");
+
+                    b.Property<string>("FeaturesJson")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<decimal>("Price")
+                        .HasPrecision(18, 2)
+                        .HasColumnType("decimal(18,2)");
+
+                    b.Property<string>("StripePriceId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("SubscriptionPlans");
+                });
+
+            modelBuilder.Entity("Domain.Entities.SubEntity.UserSubscription", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsActive")
+                        .HasColumnType("bit");
+
+                    b.Property<DateTime>("StartDate")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("StripeSubscriptionId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("SubscriptionPlanId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("SubscriptionPlanId");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserSubscriptions");
+                });
+
+            modelBuilder.Entity("Domain.Entities.TripAndPlaces.PlaceImages", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -73,7 +138,7 @@ namespace Presistence.Migrations
                     b.ToTable("PlaceImages", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Entities.Places", b =>
+            modelBuilder.Entity("Domain.Entities.TripAndPlaces.Places", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -84,14 +149,28 @@ namespace Presistence.Migrations
                     b.Property<int?>("CategoryId")
                         .HasColumnType("int");
 
-                    b.Property<string>("Description")
-                        .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Description");
+                    b.Property<string>("CityAr")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Location")
+                    b.Property<string>("CityEn")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)")
-                        .HasColumnName("Location");
+                        .HasColumnName("CityEn");
+
+                    b.Property<string>("HistoricalBackGroundAr")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("HistoricalBackGroundAr");
+
+                    b.Property<string>("HistoricalBackGroundEn")
+                        .HasColumnType("nvarchar(max)")
+                        .HasColumnName("HistoricalBackGroundEn");
+
+                    b.Property<double?>("Latitude")
+                        .HasColumnType("float");
+
+                    b.Property<double?>("Longitude")
+                        .HasColumnType("float");
 
                     b.Property<string>("NameAr")
                         .IsRequired()
@@ -128,6 +207,13 @@ namespace Presistence.Migrations
                         .HasColumnType("decimal(3,2)")
                         .HasColumnName("Rating");
 
+                    b.Property<string>("VisitingTimeAr")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("VisitingTimeEn")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
                     b.HasKey("Id");
 
                     b.HasIndex("CategoryId");
@@ -135,7 +221,7 @@ namespace Presistence.Migrations
                     b.ToTable("Places", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Entities.Trip", b =>
+            modelBuilder.Entity("Domain.Entities.TripAndPlaces.Trip", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -151,6 +237,9 @@ namespace Presistence.Migrations
 
                     b.Property<DateTime>("EndDate")
                         .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsTemplate")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Notes")
                         .HasColumnType("nvarchar(max)")
@@ -186,7 +275,7 @@ namespace Presistence.Migrations
                     b.ToTable("Trips");
                 });
 
-            modelBuilder.Entity("Domain.Entities.TripPlace", b =>
+            modelBuilder.Entity("Domain.Entities.TripAndPlaces.TripPlace", b =>
                 {
                     b.Property<int>("TripId")
                         .HasColumnType("int");
@@ -214,10 +303,10 @@ namespace Presistence.Migrations
                         .HasMaxLength(20)
                         .HasColumnType("nvarchar(20)");
 
-                    b.Property<DateTime>("VisitDate")
+                    b.Property<DateTime?>("VisitDate")
                         .HasColumnType("datetime2");
 
-                    b.Property<int>("VisitOrder")
+                    b.Property<int?>("VisitOrder")
                         .HasColumnType("int");
 
                     b.HasKey("TripId", "PlaceId");
@@ -225,6 +314,33 @@ namespace Presistence.Migrations
                     b.HasIndex("PlaceId");
 
                     b.ToTable("TripPlaces");
+                });
+
+            modelBuilder.Entity("Domain.Entities.UserNotificationSettings", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<bool>("LiveArrivalAlerts")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("ServiceDisruptions")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("TripReminders")
+                        .HasColumnType("bit");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("int");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("UserNotificationSettings");
                 });
 
             modelBuilder.Entity("Domain.Entities.UserPlaces", b =>
@@ -274,6 +390,19 @@ namespace Presistence.Migrations
                         .HasColumnType("nvarchar(max)")
                         .HasColumnName("InterestsJson");
 
+                    b.Property<bool>("IsEgyptian")
+                        .HasColumnType("bit");
+
+                    b.Property<bool>("IsStudent")
+                        .HasColumnType("bit");
+
+                    b.Property<string>("Language")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<bool>("LiveLocationSharing")
+                        .HasColumnType("bit");
+
                     b.Property<bool>("LockoutEnabled")
                         .HasColumnType("bit");
 
@@ -298,6 +427,9 @@ namespace Presistence.Migrations
                         .HasColumnType("bit");
 
                     b.Property<string>("SecurityStamp")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StripeCustomerId")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<decimal?>("TotalBudget")
@@ -470,9 +602,28 @@ namespace Presistence.Migrations
                     b.ToTable("AspNetUserTokens", (string)null);
                 });
 
-            modelBuilder.Entity("Domain.Entities.PlaceImages", b =>
+            modelBuilder.Entity("Domain.Entities.SubEntity.UserSubscription", b =>
                 {
-                    b.HasOne("Domain.Entities.Places", "Place")
+                    b.HasOne("Domain.Entities.SubEntity.SubscriptionPlan", "SubscriptionPlan")
+                        .WithMany()
+                        .HasForeignKey("SubscriptionPlanId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Domain.Entities.Users", "User")
+                        .WithMany("UserSubscriptions")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("SubscriptionPlan");
+
+                    b.Navigation("User");
+                });
+
+            modelBuilder.Entity("Domain.Entities.TripAndPlaces.PlaceImages", b =>
+                {
+                    b.HasOne("Domain.Entities.TripAndPlaces.Places", "Place")
                         .WithMany("Images")
                         .HasForeignKey("PlaceId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -481,7 +632,7 @@ namespace Presistence.Migrations
                     b.Navigation("Place");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Places", b =>
+            modelBuilder.Entity("Domain.Entities.TripAndPlaces.Places", b =>
                 {
                     b.HasOne("Domain.Entities.Category", "Category")
                         .WithMany("Places")
@@ -491,7 +642,7 @@ namespace Presistence.Migrations
                     b.Navigation("Category");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Trip", b =>
+            modelBuilder.Entity("Domain.Entities.TripAndPlaces.Trip", b =>
                 {
                     b.HasOne("Domain.Entities.Users", "User")
                         .WithMany("Trips")
@@ -502,15 +653,15 @@ namespace Presistence.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Domain.Entities.TripPlace", b =>
+            modelBuilder.Entity("Domain.Entities.TripAndPlaces.TripPlace", b =>
                 {
-                    b.HasOne("Domain.Entities.Places", "Place")
+                    b.HasOne("Domain.Entities.TripAndPlaces.Places", "Place")
                         .WithMany()
                         .HasForeignKey("PlaceId")
                         .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
-                    b.HasOne("Domain.Entities.Trip", "Trip")
+                    b.HasOne("Domain.Entities.TripAndPlaces.Trip", "Trip")
                         .WithMany("TripPlaces")
                         .HasForeignKey("TripId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -521,9 +672,20 @@ namespace Presistence.Migrations
                     b.Navigation("Trip");
                 });
 
+            modelBuilder.Entity("Domain.Entities.UserNotificationSettings", b =>
+                {
+                    b.HasOne("Domain.Entities.Users", "User")
+                        .WithMany("NotificationSettings")
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("User");
+                });
+
             modelBuilder.Entity("Domain.Entities.UserPlaces", b =>
                 {
-                    b.HasOne("Domain.Entities.Places", "Place")
+                    b.HasOne("Domain.Entities.TripAndPlaces.Places", "Place")
                         .WithMany("SavedByUsers")
                         .HasForeignKey("PlaceId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -596,23 +758,27 @@ namespace Presistence.Migrations
                     b.Navigation("Places");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Places", b =>
+            modelBuilder.Entity("Domain.Entities.TripAndPlaces.Places", b =>
                 {
                     b.Navigation("Images");
 
                     b.Navigation("SavedByUsers");
                 });
 
-            modelBuilder.Entity("Domain.Entities.Trip", b =>
+            modelBuilder.Entity("Domain.Entities.TripAndPlaces.Trip", b =>
                 {
                     b.Navigation("TripPlaces");
                 });
 
             modelBuilder.Entity("Domain.Entities.Users", b =>
                 {
+                    b.Navigation("NotificationSettings");
+
                     b.Navigation("SavedPlaces");
 
                     b.Navigation("Trips");
+
+                    b.Navigation("UserSubscriptions");
                 });
 #pragma warning restore 612, 618
         }

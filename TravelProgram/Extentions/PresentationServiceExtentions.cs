@@ -1,5 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Domain.Exceptions;
+using GTranslate;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.OpenApi.Models;
+using Presentation;
+using Services.Translation;
 using TravelProgram.Factories;
 
 namespace TravelProgram.Extentions
@@ -16,7 +21,7 @@ namespace TravelProgram.Extentions
 
                 });
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-           
+            services.AddSingleton<IAuthorizationMiddlewareResultHandler, CustomAuthorizationMiddlewareResultHandler>();
             services.ConfigureSwagger();
             return services;
 

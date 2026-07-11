@@ -18,21 +18,33 @@ namespace TravelProgram.MiddelWares
         }
         public async Task InvokeAsync(HttpContext context)
         {
-            try
-            {
-                await _next(context);
-                if (context.Response.StatusCode == (int)HttpStatusCode.NotFound)
+            
+                try
                 {
-                    await HandelNotFoundEndPointAsync(context);
+                    await _next(context);
+
+                    if (context.Response.StatusCode == (int)HttpStatusCode.NotFound
+                        && !context.Response.HasStarted
+                        && context.GetEndpoint() == null)
+                    {
+                        await HandelNotFoundEndPointAsync(context);
+                    }
                 }
-            }
-            catch (Exception ex) 
-            {
-                // log exception 
-                _logger.LogError($"something went wrong {ex.Message}");
-                // handel exception
-                await HandelExceptionAsync(context,ex);
-            }
+                catch (Exception ex)
+                {
+                    _logger.LogError(ex, $"something went wrong {ex.Message}");
+
+                    if (!context.Response.HasStarted)
+                    {
+                        await HandelExceptionAsync(context, ex);
+                    }
+                    else
+                    {
+                        _logger.LogWarning("Response already started — cannot write a custom error response for this exception.");
+                    }
+                }
+            
+            
         }
 
         private async Task HandelNotFoundEndPointAsync(HttpContext context)

@@ -1,7 +1,9 @@
 ﻿using System.Text;
 using Domain.Contracts;
 using Domain.Entities;
+using GTranslate;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
@@ -9,8 +11,10 @@ using Microsoft.IdentityModel.Tokens;
 using Presistence.Data;
 using Presistence.Repositories;
 using Presistence.Seeding;
+using SendGrid;
 using Services;
 using Services.Abstraction;
+using Services.Translation;
 using Shared;
 using StackExchange.Redis;
 
@@ -29,9 +33,17 @@ namespace TravelProgram.Extentions
             services.AddSingleton<IConnectionMultiplexer>(
                 _ => ConnectionMultiplexer.Connect(configuration.GetConnectionString("RedisConnection")!)
                 );
-            services.AddScoped<IBasketRepository, BasketRepository>();
+            services.AddScoped<ISendGridClient>(sp =>
+            {
+                var config = sp.GetRequiredService<IConfiguration>();
+                return new SendGridClient(config["SendGrid:ApiKey"]);
+            }); services.AddScoped<IBasketRepository, BasketRepository>();
             services.AddScoped<IWishlistService, WishlistService>();
+            services.AddScoped<ITranslationServices, GTranslateTranslationService>();
             services.AddScoped<IDbInitializer, DbInitializer>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddHttpContextAccessor();
+            services.AddScoped<ISubscriptionService, SubscriptionService>();
             services.ConfigureIdentityService();
             services.ConfigureJwt(configuration);
             return services;
@@ -42,11 +54,10 @@ namespace TravelProgram.Extentions
             services.AddIdentity<Users, IdentityRole<int>>(
                 option => {
                     option.Password.RequireDigit = true;
-                    option.Password.RequireNonAlphanumeric = true;
                     option.Password.RequireUppercase = true;
-                    option.Password.RequiredLength = 8;
                     option.User.RequireUniqueEmail = true;
-                }).AddEntityFrameworkStores<ApplicationDbContext>();
+                    option.Password.RequiredLength = 5;
+                }).AddEntityFrameworkStores<ApplicationDbContext>().AddDefaultTokenProviders(); ;
             return services;
         }
 

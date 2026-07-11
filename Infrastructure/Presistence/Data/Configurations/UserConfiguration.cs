@@ -1,9 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using Domain.Entities;
+using Domain.Entities.SubEntity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
@@ -23,6 +25,7 @@ namespace Presistence.Data.Configurations
                 .HasColumnType("decimal(10,2)")
                 .HasPrecision(10, 2)
                 .IsRequired(false); // Checked
+          
         }
     }
 }

@@ -1,6 +1,8 @@
-﻿using AutoMapper;
+﻿using System.Numerics;
+using AutoMapper;
 using Domain.Contracts;
 using Domain.Entities;
+using Domain.Entities.TripAndPlaces;
 using Services.Abstraction;
 using Shared.DTOs;
 
@@ -12,7 +14,7 @@ namespace Services
         {
             var categories = await unitOfWork.GetRepository<Category>().GetAllAsync();
             var categoriesResult = mapper.Map<IEnumerable<CategoryDto>>(categories);
-
+          
             // return categories
             return categoriesResult;
 
@@ -28,8 +30,6 @@ namespace Services
             // return category
             return categoryResult;
         }
-
-
 
         public async Task<Dictionary<string, int>> GetPlacesCountByCategoryAsync()
         {

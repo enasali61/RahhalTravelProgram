@@ -14,6 +14,9 @@ namespace Services.Abstraction
         public ITripService TripService { get; }
         public IBasketService BasketService { get; }
         public IAuthenticationService AuthenticationService { get; }
+        public IAiService AiService { get; }
+        public IUserService UserService { get; }
+        public INotificationService NotificationService { get; }
 
     }
 }

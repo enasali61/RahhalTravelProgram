@@ -4,9 +4,8 @@ using Shared.DTOs;
 
 namespace Presentation
 {
-    [Route("api/[controller]")]
-    [ApiController]
-    public class CategoriesController(IServiceManager serviceManager) : ControllerBase
+  
+    public class CategoriesController(IServiceManager serviceManager) : BaseApiController
     {
         // GET: api/Categories
         [HttpGet]

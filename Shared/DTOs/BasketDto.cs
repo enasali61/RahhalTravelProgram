@@ -10,5 +10,8 @@ namespace Shared.DTOs
     {
         public string Id { get; init; }
         public IEnumerable<BasketItemsDto> Items { get; init; }
+        public decimal TotalCost { get; set; }         // Total cost of all places
+        public int NumberOfPlaces { get; set; }       // Count of places in the basket
+        public int DurationDays { get; set; }
     }
 }

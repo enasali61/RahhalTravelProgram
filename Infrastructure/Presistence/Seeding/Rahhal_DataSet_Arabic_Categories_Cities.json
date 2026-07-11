@@ -1,0 +1,2447 @@
+[
+    {
+        "name_en": "AI-Mu'izz Street",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"One of Cairo's oldest streets, featuring stunning Mamluk and Fatimid architecture with historic mosques and sabil-kuttabs.",
+        "name_ar": "شارع المعز",
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Madrasa of Sultan Hassan & Al-Rifa'i Mosque",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A historic Madrasa and mosque complex, housing the Sultan Hassan Madrasa and the Al-Rifa'i Mosque, known for their beautiful architecture and historical significance.",
+        "name_ar": "مدرسة السلطان حسن ومسجد الرفاعي",       
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Bayt al-Suhaymi",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "DescriptionEn":"A beautifully preserved 17th-century Islamic house with mashrabiya screens, stained glass, and serene courtyards showcasing Ottoman-era Cairo.",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "name_ar": "بيت السحيمي",   
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Salah al-Din al-Ayyubi Citadel",
+        "price_eg_adult": 60.0,
+        "price_eg_student": 30.0,
+        "price_forign_adult": 550.0,
+        "price_forign_student": 275.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "DescriptionEn":"A massive medieval fortress built by Saladin, housing the iconic Muhammad Ali Mosque and offering panoramic views of Cairo.",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "name_ar": "قلعة صلاح الدين الأيوبي",
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Baron Empain Palace",
+        "price_eg_adult": 60.0,
+        "price_eg_student": 30.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 9:00am to 6:00pm",
+        "CategoryId": 5,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A unique architectural masterpiece in Heliopolis inspired by Hindu and Cambodian temples, featuring exotic carvings and stained glass.",
+        "name_ar": "قصر البارون إمبان",
+
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Panorama of the Roof",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 30.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 120.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A stunning panoramic view of Cairo's rooftops and minarets, offering a breathtaking perspective of the city's skyline.",
+        "name_ar": "بانوراما السطح",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Madrasa- Mosque of Muhammad Abu al-Dahab",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A beautiful 18th-century mosque-madrasa complex located near Al-Azhar, featuring elegant Ottoman and Mamluk architectural elements.",
+        "name_ar": "مدرسة ومسجد محمد أبو الدهب",
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Bab Zuwayla",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"One of the remaining gates of Fatimid Cairo, with twin minarets offering spectacular views of the historic city.",
+        "name_ar": "باب زويلة",     
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "House of al-Harawy",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":" A traditional Ottoman-era house showcasing Islamic domestic architecture with mashrabiya screens and inner courtyards.",
+        "name_ar": "بيت الهراوي",
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Ali Labib House",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":" A historic 19th-century house in Islamic Cairo, known for its distinctive architectural style and traditional Egyptian design.",
+        "name_ar": "منزل علي لبيب",     
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Jamal Al-Din Al-Dhahabi's house",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 30.0,
+        "price_forign_student": 15.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A beautifully restored Islamic house featuring intricate woodwork, mashrabiya, and traditional Cairo architecture.",
+        "name_ar": "منزل جمال الدين الذهبي",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Mosque of ibn Tulun",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"One of Cairo's oldest and largest mosques, featuring a unique spiral minaret and vast courtyard inspired by Samarra architecture.",
+        "name_ar": "مسجد ابن طولون",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Nilometer",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A historic structure on Roda Island used to measure the annual Nile flood, featuring a unique octagonal marble column.",
+        "name_ar": "مقياس النيل",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Fustat",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 20.0,
+        "price_forign_student": 10.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"The first capital of Islamic Egypt, now an archaeological site with remains of early Islamic and Coptic buildings.",
+        "name_ar": "الفسطاط",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Wikala of al-Ghuri",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A 16th-century caravanserai in Islamic Cairo, featuring a magnificent courtyard, arched galleries, and a beautiful facade.",
+        "name_ar": "وكالة الغوري",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Al-Ghuri Complex, The dome, The Sabil and The House",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A Mamluk-era architectural ensemble including a mosque, dome, sabil, and house, showcasing exquisite stonework and design.",
+        "name_ar": "مجموعة الغوري، القبة، السبيل والمنزل",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Prince Taz Palace",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 5,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A 14th-century Mamluk palace in historic Cairo, featuring stunning architecture and a beautiful central courtyard.",
+        "name_ar": "قصر الأمير طاز",
+
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Sabil-Kuttab of Nafisa al-Bayda",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 60.0,
+        "price_forign_student": 30.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A beautiful 18th-century sabil-kuttab combining religious and civic architecture in Islamic Cairo.",
+        "name_ar": "سبيل وكتاب نفيسة البيضاء",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "The Mawlawiyya Takiyya",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A historic Sufi lodge featuring beautiful Ottoman-era architecture and a serene atmosphere for spiritual reflection.",
+        "name_ar": "التكية المولوية",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Sabil-Kuttab of Sultan Qaitbay",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A 15th-century sabil-kuttab in Islamic Cairo, featuring elegant Mamluk architectural details and stonework.",
+        "name_ar": "سبيل وكتاب السلطان قايتباي",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "House of Sitt Wasila",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A beautifully restored Ottoman-era house showcasing traditional Cairo domestic architecture and design.",
+        "name_ar": "بيت الست وسيلة",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Tombs of Muhammad Ali Family (Hosh al-Basha)",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 40.0,
+        "price_forign_student": 20.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A historic royal cemetery in Cairo, featuring ornate Ottoman-style tombs and monuments of the Muhammad Ali dynasty.",
+        "name_ar": "مقابر عائلة محمد علي (حوش الباشا)",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Ben Ezra Synagogue",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 9:00am to 4:00pm",
+        "CategoryId": 2,
+        "CityEn": "Cairo",
+        "DescriptionEn":"One of Egypt's oldest synagogues, located in Coptic Cairo, with a rich history and beautiful interiors.",
+        "name_ar": "معبد بن عزرا",
+
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Mosque of Amr ebn al-As",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 9:00am to 4:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"The oldest mosque in Africa, built in 642 AD, featuring a massive courtyard and ancient Islamic architectural elements.",
+        "name_ar": "جامع عمرو بن العاص",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Museum of Islamic Art",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 340.0,
+        "price_forign_student": 170.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 3,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A historic museum built in the 13th century, known for its beautiful architecture and historical significance.",
+        "name_ar": "متحف الفن الإسلامي",
+
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Sharm al-Sheikh Museum",
+        "price_eg_adult": 40.0,
+        "price_eg_student": 20.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 10:00am to 1:00pm From 5:00pm to 11:00pm",
+        "CategoryId": 3,
+        "CityEn": "South Sina",
+        "DescriptionEn":"A modern museum featuring an excellent collection of artifacts showcasing ancient Egyptian concepts of life, afterlife, and wildlife.",
+        "name_ar": "متحف شرم الشيخ",
+
+        "CityAr": "جنوب سيناء"
+    },
+    {
+        "name_en": "Al-Darb al-Ahmar Vistor Route",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A historic visitor route through one of Cairo's oldest neighborhoods, showcasing Mamluk architecture and traditional crafts.",
+        "name_ar": "مسار زوار الدرب الأحمر",
+        
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Coptic Museum",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 280.0,
+        "price_forign_student": 140.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 3,
+        "CityEn": "Cairo",
+        "DescriptionEn":"The world's largest collection of Coptic Christian artifacts, including textiles, icons, and stonework from Egypt's early Christian era.",
+        "name_ar": "المتحف القبطي",
+
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Mary Tree",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 2,
+        "CityEn": "Cairo",
+        "DescriptionEn":"A sacred sycamore tree in El-Matariya where the Holy Family rested during their flight into Egypt.",
+        "name_ar": "شجرة مريم",
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "The Hanging Church",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 9:00am to 4:00pm",
+        "CategoryId": 2,
+        "CityEn": "Cairo",
+        "name_ar": "الكنيسة المعلقة",
+        "DescriptionEn":"One of Egypt's oldest Coptic churches, built above the Babylon Fortress gate, featuring beautiful icons and a wooden roof.",
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Abu Serga Church",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 9:00am to 4:00pm",
+        "CategoryId": 2,
+        "CityEn": "Cairo",
+        "name_ar": "كنيسة أبو سرجة",
+        "DescriptionEn":"A historic Coptic church built over a cave where the Holy Family stayed, featuring beautiful stonework and iconography.",
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Gayer-Anderson Museum",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 3:00pm",
+        "CategoryId": 3,
+        "CityEn": "Cairo",
+        "name_ar": "متحف جاير أندرسون",
+        "DescriptionEn":"Two restored Ottoman-era houses featuring beautiful mashrabiya, courtyards, and traditional Islamic architecture.",
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Giza Necropolis",
+        "price_eg_adult": 60.0,
+        "price_eg_student": 30.0,
+        "price_forign_adult": 700.0,
+        "price_forign_student": 350.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Giza",
+        "name_ar": "أهرامات الجيزة",
+        "DescriptionEn":"The last surviving wonder of the ancient world, featuring the Great Pyramids and the iconic Sphinx.",
+
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Pyramid of Khafre",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 280.0,
+        "price_forign_student": 140.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Giza",
+        "name_ar": "هرم خفرع",
+        "DescriptionEn":"The second-largest pyramid at Giza, featuring a limestone casing at its apex and stunning views of the plateau.",
+
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Pyramid of Khufu",
+        "price_eg_adult": 100.0,
+        "price_eg_student": 50.0,
+        "price_forign_adult": 1000.0,
+        "price_forign_student": 500.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Giza",
+        "name_ar": "هرم خوفو",
+        "DescriptionEn":"The Great Pyramid, the largest and oldest of the Giza pyramids, and the only surviving wonder of the ancient world.",
+
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Royal Carriages Museum",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 300.0,
+        "price_forign_student": 150.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 3,
+        "CityEn": "Cairo",
+        "name_ar": "متحف المركبات الملكية",
+        "DescriptionEn":"A museum displaying the magnificent carriages and royal vehicles of Egypt's Muhammad Ali dynasty.",
+
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Helwan Corner Museum (Farouk's Corner)",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 3:00pm",
+        "CategoryId": 3,
+        "CityEn": "Cairo",
+        "name_ar": "متحف ركن حلوان (ركن فاروق)",
+        "DescriptionEn":"A small museum showcasing artifacts and memorabilia from Egypt's royal era.",
+
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Manial (Prince Muhammad Ali) Palace",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 5,
+        "CityEn": "Cairo",
+        "name_ar": "قصر المنيل (الأمير محمد علي)",
+        "DescriptionEn" :"A stunning palace blending multiple Islamic architectural styles, surrounded by rare botanical gardens.",
+        "CityAr": "القاهرة"
+    },
+    {
+        "name_en": "Tomb of Meresankh III",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Giza",
+        "name_ar": "مقبرة مرس عنخ الثالثة",
+        "DescriptionEn": "A beautifully decorated tomb at Giza featuring vivid paintings and carvings of the queen's life."
+,
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Tomb of Mereruka",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Giza",   
+         "DescriptionEn": "A beautifully decorated tomb at Giza featuring vivid paintings and carvings of the queen's life."
+,
+        "name_ar": "مقبرة مريروكا",
+
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Step Pyramid Complex from the Southern Entrance",
+        "price_eg_adult": 40.0,
+        "price_eg_student": 20.0,
+        "price_forign_adult": 280.0,
+        "price_forign_student": 140.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Giza",
+        "name_ar": "مجموعة الهرم المدرج من المدخل الجنوبي",
+        "DescriptionEn": "The world's oldest monumental stone structure, built by Imhotep for Pharaoh Djoser, featuring the iconic step pyramid."
+,
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Noblemen's Tomb &New Kingdom Tombs in the Horemheb in Bubasteum",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 400.0,
+        "price_forign_student": 200.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Giza",
+        "name_ar": "مقابر النبلاء ومقابر الدولة الحديثة في حورمحب في بوباستيوم",
+        "DescriptionEn": "Ancient tombs at Saqqara featuring beautiful reliefs and carvings depicting the lives of Egyptian nobles."
+,
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Serapeum",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 340.0,
+        "price_forign_student": 170.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Giza",
+        "name_ar": "السرابيوم",
+        "DescriptionEn": "An underground burial complex at Saqqara housing the mummified remains of the Apis bulls, featuring massive stone sarcophagi."
+,
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Saqqara Area (Includes Pyramid of Djoser Complex, Pyramid of Unas, Pyramid of Teti, Tombs of Kagemni, Nikauisesi, Ankhmahor, Neferseshemptah, Ptahhotep, Idut, Unasankh, Iynefert)",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 600.0,
+        "price_forign_student": 300.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Giza",
+        "name_ar": "منطقة سقارة",
+        "DescriptionEn": "Egypt's most extensive archaeological site, featuring the Step Pyramid and numerous tombs of nobles and officials."
+,
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Worker's Cemetery",
+        "price_eg_adult": 400.0,
+        "price_eg_student": 200.0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm ",
+        "CategoryId": 4,
+        "CityEn": "Giza",
+        "name_ar": "مقابر العمال",
+        "DescriptionEn": "Ancient burial grounds for the pyramid builders, providing insight into the lives of Egypt's working class."
+,
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Pyramid of Menkaure",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 280.0,
+        "price_forign_student": 140.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Giza",
+        "name_ar": "هرم منقرع",
+        "DescriptionEn": "The smallest of the Giza pyramids, featuring beautiful granite casing stones and a stunning location."
+,
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "The Southern Tomb",
+        "price_eg_adult": 40.0,
+        "price_eg_student": 20.0,
+        "price_forign_adult": 300.0,
+        "price_forign_student": 150.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Giza",
+        "name_ar": "المقبرة الجنوبية",
+        "DescriptionEn": "A rarely visited tomb at Saqqara featuring beautiful reliefs and insights into ancient burial practices."
+,
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Dahshur",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Giza",
+        "name_ar": "دهشور",
+        "DescriptionEn": "An archaeological site featuring the Bent Pyramid and Red Pyramid, offering a quieter experience than Giza."
+,
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Qaitbay Citadel",
+        "price_eg_adult": 60.0,
+        "price_eg_student": 30.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 9:00am to 7:00pm",
+        "CategoryId": 1,
+        "CityEn": "Alexandria",
+        "name_ar": "قلعة قايتباي",
+        "DescriptionEn": "A majestic fortress on Alexandria's Mediterranean coast, built on the site of the ancient Lighthouse of Alexandria.",
+        "CityAr": "الإسكندرية"
+    },
+    {
+        "name_en": "Bahariyya Oasis",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 4:00pm",
+        "CategoryId": 6,
+        "CityEn": "Giza",
+        "name_ar": "الواحات البحرية",
+        "DescriptionEn": "A beautiful desert oasis featuring hot springs, ancient tombs, and stunning landscapes in the Western Desert."
+,
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Mit Rahina",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Giza",
+        "name_ar": "ميت رهينة",
+        "DescriptionEn": "The ancient city of Memphis, featuring a massive statue of Ramesses II and an open-air museum of Egyptian antiquities."
+,
+        "CityAr": "الجيزة"
+    },
+    {
+        "name_en": "Pompey's Pillar",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId":8,
+        "CityEn": "Alexandria",
+        "name_ar": "عمود السواري",
+        "DescriptionEn": "A massive Roman triumphal column standing 27 meters tall, one of Alexandria's most recognizable ancient monuments.",
+        "CityAr": "الإسكندرية"
+    },
+    {
+        "name_en": "Abu Mena Archaeological Site",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 7:00am to 7:00pm",
+        "CategoryId": 2,
+        "CityEn": "Alexandria",
+        "name_ar": "موقع أبو مينا الأثري",
+        "DescriptionEn": "An early Christian pilgrimage site featuring the tomb of Saint Menas, with stunning basilica ruins and ancient remains.",
+        "CityAr": "الإسكندرية"
+    },
+    {
+        "name_en": "Kom al-Dekka (Amphitheater)",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId":8,
+        "CityEn": "Alexandria",
+        "name_ar": "كوم الدكة (المدرج الروماني)",
+        "DescriptionEn": "A well-preserved Roman amphitheater and archaeological complex featuring a theater, baths, and ancient housing."
+        ,
+        "CityAr": "الإسكندرية"
+    },
+    {
+        "name_en": "Mustafa Kamel Tombs",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId":8,
+        "CityEn": "Alexandria",
+        "name_ar": "مقابر مصطفى كامل",
+        "DescriptionEn": "An ancient cemetery with beautifully decorated Hellenistic tombs featuring frescoes and archaeological artifacts."
+        ,
+        "CityAr": "الإسكندرية"
+    },
+    {
+        "name_en": "Kom al-Shuqafa",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId":8,
+        "CityEn": "Alexandria",
+        "name_ar": "كوم الشقافة",
+        "DescriptionEn": "Egypt's largest Roman burial site, featuring a fascinating underground catacomb with Greco-Roman and Egyptian influences."
+        ,
+        "CityAr": "الإسكندرية"
+    },
+    {
+        "name_en": "Al-Anfushy",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId":8,
+        "CityEn": "Alexandria",
+        "name_ar": "الأنفوشي",
+        "DescriptionEn": "An archaeological site with ancient rock-cut tombs and burial chambers dating to the Greco-Roman period."
+        ,
+        "CityAr": "الإسكندرية"
+    },
+    {
+        "name_en": "Greco-Roman Museum",
+        "price_eg_adult": 40.0,
+        "price_eg_student": 20.0,
+        "price_forign_adult": 400.0,
+        "price_forign_student": 200.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 3,
+        "CityEn": "Alexandria",
+        "name_ar": "المتحف اليوناني الروماني",
+        "DescriptionEn": "Alexandria's main archaeological museum, featuring stunning mosaics, sculptures, and artifacts from the city's ancient past."
+        ,
+        "CityAr": "الإسكندرية"
+    },
+    {
+        "name_en": "Royal Jewellery Museum",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 3,
+        "CityEn": "Alexandria",
+        "name_ar": "متحف المجوهرات الملكية",
+        "DescriptionEn": "A magnificent museum displaying the exquisite jewelry and royal possessions of Egypt's Muhammad Ali dynasty."
+,
+        "CityAr": "الإسكندرية"
+    },
+    {
+        "name_en": "National Museum of Alexandria",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 3,
+        "CityEn": "Alexandria",
+        "name_ar": "متحف الإسكندرية القومي",
+        "DescriptionEn": "Housed in a restored Italian-style palace, showcasing Alexandria's history across the Pharaonic, Greek, Roman, and Islamic eras."
+,
+        "CityAr": "الإسكندرية"
+    },
+    {
+        "name_en": "Underwater Antiquities",
+        "price_eg_adult": 35.0,
+        "price_eg_student": 35.0,
+        "price_forign_adult": 180.0,
+        "price_forign_student": 90.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId":8,
+        "CityEn": "Alexandria",
+        "name_ar": "الآثار الغارقة",
+        "DescriptionEn": "Sunken artifacts and ruins from ancient Alexandria, offering a glimpse into the city's lost history beneath the Mediterranean."
+,
+        "CityAr": "الإسكندرية"
+    },
+    {
+        "name_en": "El-Shatby Cemetery",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId":8,
+        "CityEn": "Alexandria",
+        "name_ar": "مقابر الشاطبي",
+        "DescriptionEn": "An ancient Greco-Roman cemetery featuring beautifully decorated tombs and artifacts from Alexandria's early history."
+,
+        "CityAr": "الإسكندرية"
+    },
+    {
+        "name_en": "Ismailia Museum",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 3:00pm",
+        "CategoryId": 3,
+        "CityEn": "Ismailia",
+        "name_ar": "متحف الإسماعيلية",
+        "DescriptionEn":"One of Egypt's oldest regional museums, featuring artifacts discovered during the Suez Canal excavations, including Pharaonic, Greek, Roman, and Islamic treasures.",
+        "CityAr": "الإسماعيلية"
+    },
+    {
+        "name_en": "National Museum of Suez",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 180.0,
+        "price_forign_student": 90.0,
+        "VisitingTimeEn": "From 9:00am to 3:00pm",
+        "CategoryId": 3,
+        "CityEn": "Suez",
+        "name_ar": "متحف السويس القومي",
+        "DescriptionEn":"A museum showcasing the rich history of Suez, the Suez Canal, and Egypt's maritime trade, with exhibits on mining, shipbuilding, and the city's strategic role.",
+        "CityAr": "السويس"
+    },
+    {
+        "name_en": "Monastery of St Pshoi",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 2,
+        "CityEn": "Wadi El Natrun",
+        "name_ar": "دير الأنبا بيشوي",
+        "DescriptionEn":"An ancient Coptic monastery in the desert valley, featuring beautiful architecture and a serene spiritual atmosphere.",
+        "CityAr": "وادي النطرون"
+    },
+    {
+        "name_en": "Monastery of the Syrians",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 2,
+        "CityEn": "Wadi El Natrun",
+        "name_ar": "دير السريان",
+        "DescriptionEn":"A historic Coptic monastery known for its stunning wall paintings, ancient manuscripts, and beautiful church interiors.",
+        "CityAr": "وادي النطرون"
+    },
+    {
+        "name_en": "Qaitbay Citadel in Rosetta",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 30.0,
+        "price_forign_student": 15.0,
+        "VisitingTimeEn": "From 8:30am to 4:00pm",
+        "CategoryId": 1,
+        "CityEn": "Beheira",
+        "name_ar": "قلعة قايتباي برشيد",
+        "DescriptionEn":"A historic fortress in the city of Rosetta, featuring beautiful Ottoman-era architecture and views of the Nile.",
+        "CityAr": "البحيرة"
+    },
+    {
+        "name_en": "Tombs of Gabal al-Mawta",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId":8,
+        "CityEn": "Matrouh",
+        "name_ar": "مقابر جبل الموتى",
+        "DescriptionEn":"Ancient rock-cut tombs on the Mountain of the Dead, featuring beautiful Greco-Roman burial chambers and artifacts.",
+        "CityAr": "مطروح"
+    },
+    {
+        "name_en": "Monastery of al-Baramus",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 2,
+        "CityEn": "Wadi El Natrun",
+        "name_ar": "دير البراموس",
+        "DescriptionEn":"One of the oldest Coptic monasteries, featuring a peaceful desert setting and rich spiritual heritage.",
+        "CityAr": "وادي النطرون"
+    },
+    {
+        "name_en": "Rosetta CityEn Monuments",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 8:30am to 4:00pm",
+        "CategoryId": 1,
+        "CityEn": "Beheira",
+        "name_ar": "آثار مدينة رشيد",
+        "DescriptionEn":"Ancient monuments and historic buildings in Rosetta, the city where the famous Rosetta Stone was discovered.",
+        "CityAr": "البحيرة"
+    },
+    {
+        "name_en": "Matruh Museum",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 180.0,
+        "price_forign_student": 90.0,
+        "VisitingTimeEn": "From 9:00am to 3:00pm From 5:00pm to 10:00pm Summer From 9:00am to 5:00pm Winter",
+        "CategoryId": 3,
+        "CityEn": "Matrouh",
+        "name_ar": "متحف مطروح",
+        "DescriptionEn":"A regional museum displaying artifacts from Matrouh's rich history, including Pharaonic, Greek, Roman, and Islamic periods.",
+        "CityAr": "مطروح"
+    },
+    {
+        "name_en": "Temple of Aghurmi",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Matrouh",
+        "name_ar": "معبد أغورمي",
+        "DescriptionEn":"An ancient temple in the Siwa Oasis, built for the god Amun and famous for Alexander the Great's visit.",
+        "CityAr": "مطروح"
+    },
+    {
+        "name_en": "Rommel's Cave Museum",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 3:00pm",
+        "CategoryId": 3,
+        "CityEn": "Matrouh",
+        "name_ar": "متحف كهف روميل",
+        "DescriptionEn":"A museum located in the cave used by German Field Marshal Rommel during World War II, featuring war memorabilia and desert artifacts.",
+        "CityAr": "مطروح"
+    },
+    {
+        "name_en": "Monastery of St Macarius",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 2,
+        "CityEn": "Wadi El Natrun",
+        "name_ar": "دير الأنبا مقار",
+        "DescriptionEn":"A historic monastery in the Wadi El Natrun desert, named after the great Coptic saint and featuring ancient church architecture.",
+        "CityAr": "وادي النطرون"
+    },
+    {
+        "name_en": "Tell Basta",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 9:00am to 6:00pm ",
+        "CategoryId": 4,
+        "CityEn": "Sharqia",
+        "name_ar": "تل بسطة",
+        "DescriptionEn":"The ancient city of Bubastis, featuring impressive temple ruins, catacombs, and artifacts dedicated to the cat goddess Bastet.",
+        "CityAr": "الشرقية"
+    },
+    {
+        "name_en": "Kafr al-Sheikh Museum",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 9:00am to 4:00pm",
+        "CategoryId": 3,
+        "CityEn": "Kafr El-Sheikh",
+        "name_ar": "متحف كفر الشيخ",
+        "DescriptionEn":"A museum showcasing the cultural heritage of the governorate, with a focus on the ancient city of Buto, capital of Lower Egypt.",
+        "CityAr": "كفر الشيخ"
+    },
+    {
+        "name_en": "Tanta Museum",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 9:00am to 3:00pm",
+        "CategoryId": 3,
+        "CityEn": "Gharbia",
+        "name_ar": "متحف طنطا",
+        "DescriptionEn":"A regional museum in Tanta displaying artifacts from Pharaonic, Greek, Roman, Coptic, and Islamic periods.",
+        "CityAr": "الغربية"
+    },
+    {
+        "name_en": "Tanis (San al-Hagar)",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 9:00am to 6:00pm ",
+        "CategoryId": 4,
+        "CityEn": "Sharqia",
+        "name_ar": "تانيس (صان الحجر)",
+        "DescriptionEn":"The ancient capital of Egypt during the 21st and 22nd Dynasties, featuring royal tombs and temple ruins with stunning artifacts.",
+        "CityAr": "الشرقية"
+    },
+    {
+        "name_en": "Kom Aushim Museum",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 3:00pm",
+        "CategoryId": 3,
+        "CityEn": "Faiyum",
+        "name_ar": "متحف كوم أوشيم",
+        "DescriptionEn":"A museum in the Faiyum Oasis featuring artifacts from the Greco-Roman period, including mummies and daily life objects.",
+        "CityAr": "الفيوم"
+    },
+    {
+        "name_en": "Medinet Madi",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Faiyum",
+        "name_ar": "مدينة ماضي",
+        "DescriptionEn":"A well-preserved temple complex from the Middle Kingdom, featuring beautiful reliefs and a peaceful desert setting.",
+        "CityAr": "الفيوم"
+    },
+    {
+        "name_en": "Pyramid of Meidum",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Beni Suef",
+        "name_ar": "هرم ميدوم",
+        "CityAr": "بني سويف",
+        "DescriptionEn":"A fascinating stepped pyramid believed to be Egypt's first attempt at a true pyramid, featuring a unique collapse and intact outer casing."
+    },
+    {
+        "name_en": "Tuna al-Gabal",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Minya",
+        "name_ar": "تونا الجبل",
+        "DescriptionEn":"An ancient cemetery featuring the famous tomb of Petosiris, the Ibis catacombs, and stunning Greco-Roman architecture.",
+        "CityAr": "المنيا"
+    },
+    {
+        "name_en": "Gabal al-Tayr",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 2,
+        "CityEn": "Minya",
+        "name_ar": "جبل الطير",
+        "DescriptionEn":"An ancient monastery and Coptic pilgrimage site, featuring beautiful church architecture and cliff-top views of the Nile.",
+        "CityAr": "المنيا"
+    },
+    {
+        "name_en": "Karanis",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId":8,
+        "CityEn": "Faiyum",
+        "name_ar": "كرانيس",  
+        "DescriptionEn":"A Greco-Roman city ruin featuring well-preserved houses, temples, and daily life artifacts from ancient times.",    
+        "CityAr": "الفيوم"
+    },
+    {
+        "name_en": "Hawara Pyramid",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Faiyum",
+        "name_ar": "هرم هوارة",
+        "DescriptionEn":"The pyramid of Amenemhat III, featuring a complex underground structure and the famous labyrinth described by ancient historians.",
+        "CityAr": "الفيوم"
+    },
+    {
+        "name_en": "Al-Lahun Pyramid",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Faiyum",
+        "name_ar": "هرم اللاهون",
+        "DescriptionEn":"The pyramid of Senusret II, featuring a unique entrance design and beautiful limestone casing fragments.",
+        "CityAr": "الفيوم"
+    },
+    {
+        "name_en": "Al-Bahnasa",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Minya",
+        "name_ar": "البهنسا",
+        "DescriptionEn":"The ancient city of Oxyrhynchus, featuring extensive archaeological remains from the Greco-Roman period.",
+        "CityAr": "المنيا"
+    },
+    {
+        "name_en": "Zawyet Sultan",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Minya",
+        "name_ar": "زاوية سلطان",
+        "DescriptionEn":"An ancient cemetery and temple complex featuring beautifully decorated tombs and inscriptions.",
+        "CityAr": "المنيا"
+    },
+    {
+        "name_en": "Qasr Qarun",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Faiyum",
+        "name_ar": "قصر قارون",
+        "DescriptionEn":"A well-preserved temple dedicated to the crocodile god Sobek, featuring beautiful Ptolemaic architecture.",
+        "CityAr": "الفيوم"
+    },
+    {
+        "name_en": "The Royal Tomb",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Minya",
+        "name_ar": "المقبرة الملكية",
+        "DescriptionEn":"A grand royal tomb from the Middle Kingdom, featuring impressive architecture and historical significance.",
+        "CityAr": "المنيا"
+    },
+    {
+        "name_en": "Tombs of Meir",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Assiut",
+        "name_ar": "مقابر مير",
+        "DescriptionEn":"A beautifully decorated cemetery of Middle Kingdom nobles, featuring vivid paintings and inscriptions of daily life.",
+        "CityAr": "أسيوط"
+    },
+    {
+        "name_en": "Fraser Tombs",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Minya",
+        "name_ar": "مقابر فريزر",
+"DescriptionEn":"A group of ancient rock-cut tombs featuring beautiful paintings and inscriptions from the Old Kingdom.",
+        "CityAr": "المنيا"
+    },
+    {
+        "name_en": "Tombs of Beni Hasan",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Minya",
+        "name_ar": "مقابر بني حسن",
+"DescriptionEn":"A fascinating cemetery of Middle Kingdom nobles, featuring beautifully painted tombs with scenes of daily life and hunting.",
+
+        "CityAr": "المنيا"
+    },
+    {
+        "name_en": "Tell al-Amarna",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Minya",
+        "name_ar": "تل العمارنة",
+"DescriptionEn":"The ancient capital of Akhenaten, featuring extensive ruins, tombs, and the famous boundary stelae.",
+
+        "CityAr": "المنيا"
+    },
+    {
+        "name_en": "Temple of Deir al-Hagar",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "New Valley",
+        "name_ar": "معبد دير الحجر",
+"DescriptionEn":"A well-preserved Roman-era temple in the desert, featuring beautiful sandstone reliefs and a peaceful oasis setting.",
+        "CityAr": "الوادي الجديد"
+    },
+    {
+        "name_en": "Qila al-Dabba & Ayn Asil",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "New Valley",
+        "name_ar": "قلاع الضبة وعين أصيل",
+"DescriptionEn":"Ancient fortress and settlement ruins featuring impressive mudbrick architecture and archaeological remains.",
+
+        "CityAr": "الوادي الجديد"
+    },
+    {
+        "name_en": "Tombs of al-Muzawwaqa",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "New Valley",
+        "name_ar": "مقابر المزوقة",
+"DescriptionEn":"Beautifully decorated Roman-era tombs featuring vibrant paintings and unique architectural designs.",
+
+        "CityAr": "الوادي الجديد"
+    },
+    {
+        "name_en": "Deir al-Muharraq",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 2,
+        "CityEn": "Assiut",
+        "name_ar": "الدير المحرق",
+"DescriptionEn":"One of Egypt's oldest Coptic monasteries, featuring beautiful church architecture and a peaceful desert setting.",
+        "CityAr": "أسيوط"
+    },
+    {
+        "name_en": "Tombs of al-Hammamiyya",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Assiut",
+        "name_ar": "مقابر الهمامية",
+"DescriptionEn":"Ancient rock-cut tombs featuring beautiful paintings and inscriptions from the Pharaonic period.",
+
+        "CityAr": "أسيوط"
+    },
+    {
+        "name_en": "Temple of Sety (Temple of Abydos)",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 260.0,
+        "price_forign_student": 130.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Sohag",
+        "name_ar": "معبد سيتي الأول (معبد أبيدوس)",
+"DescriptionEn":"Beautifully decorated Roman-era tombs featuring vibrant paintings and unique architectural designs.",
+
+        "CityAr": "سوهاج"
+    },
+    {
+        "name_en": "New Valley Museum",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 9:00am to 3:00pm",
+        "CategoryId": 3,
+        "CityEn": "New Valley",
+        "name_ar": "متحف الوادي الجديد",
+"DescriptionEn":"A museum showcasing the rich cultural heritage of Egypt's Western Desert, including Pharaonic and Roman artifacts.",
+
+        "CityAr": "الوادي الجديد"
+    },
+    {
+        "name_en": "Al Bagawat",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 2,
+        "CityEn": "New Valley",
+        "name_ar": "البجوات",
+"DescriptionEn":"An ancient Christian cemetery featuring beautifully decorated mudbrick chapels with stunning early Christian art.",
+
+        "CityAr": "الوادي الجديد"
+    },
+    {
+        "name_en": "Temple of Dush (Douch)",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "New Valley",
+        "name_ar": "معبد دوش",
+"DescriptionEn":"A well-preserved Roman temple in the desert oasis, featuring beautiful reliefs and a fascinating history.",
+
+        "CityAr": "الوادي الجديد"
+    },
+    {
+        "name_en": "Temple of Hibis",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 180.0,
+        "price_forign_student": 90.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "New Valley",
+        "name_ar": "معبد هيبس",
+"DescriptionEn":"One of Egypt's best-preserved Persian-period temples, featuring stunning reliefs and a beautiful location in the oasis.",
+
+        "CityAr": "الوادي الجديد"
+    },
+    {
+        "name_en": "Temple of Qasr al-Ghuweita",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "New Valley",
+        "name_ar": "معبد قصر الغويطة",
+"DescriptionEn":"A beautifully preserved temple featuring stunning reliefs and a peaceful desert oasis setting.",
+
+        "CityAr": "الوادي الجديد"
+    },
+    {
+        "name_en": "Ezbet Bashendi",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "New Valley",
+        "name_ar": "عزبة بشندي",
+        "DescriptionEn":"An ancient settlement site featuring archaeological remains from Egypt's early history.",
+
+        "CityAr": "الوادي الجديد"
+    },
+    {
+        "name_en": "Al-Qasr",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "New Valley",
+        "name_ar": "القصر",
+        "DescriptionEn":"A beautifully preserved medieval Islamic village featuring traditional architecture and desert charm.",
+
+        "CityAr": "الوادي الجديد"
+    },
+    {
+        "name_en": "Temple of Qasr al-Zayyan",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "New Valley",
+        "name_ar": "معبد قصر الزيان",
+"DescriptionEn":"A well-preserved Roman temple in the New Valley, featuring beautiful reliefs and desert views.",
+
+        "CityAr": "الوادي الجديد"
+    },
+    {
+        "name_en": "Prince Youssef Kamal Palace",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 8:00am to 5:00pm",
+        "CategoryId": 5,
+        "CityEn": "Qena",
+        "name_ar": "قصر الأمير يوسف كمال",
+"DescriptionEn":"A beautiful historic palace in Qena, featuring elegant architecture and a rich cultural heritage.",
+
+        "CityAr": "قنا"
+    },
+    {
+        "name_en": "Temple of Dendara",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 300.0,
+        "price_forign_student": 150.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Qena",
+        "name_ar": "معبد دندرة",
+        "DescriptionEn":"One of Egypt's most beautiful and well-preserved temples, featuring stunning astronomical ceiling paintings and Hathor-headed columns.",
+
+        "CityAr": "قنا"
+    },
+    {
+        "name_en": "Shunet al-Zebib & Kom al-Sultan",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Sohag",
+        "name_ar": "شونة الزبيب وكوم السلطان",
+"DescriptionEn":"The ancient city of Abydos, featuring temple ruins and the famous Osireion, a mysterious underground structure.",
+
+        "CityAr": "سوهاج"
+    },
+    {
+        "name_en": "Al-Sheikh Hamad (Athribis)",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId":8,
+        "CityEn": "Sohag",
+        "name_ar": "الشيخ حمد (أتريبس)",
+"DescriptionEn":"An ancient temple and settlement site featuring beautiful reliefs and archaeological remains from the Greco-Roman period.",
+      
+        "CityAr": "سوهاج"
+    },
+    {
+        "name_en": "Tombs of al-Hawawish",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Sohag",
+        "name_ar": "مقابر الحواويش",
+"DescriptionEn":"Beautifully decorated Old Kingdom tombs featuring vibrant paintings and inscriptions of daily life.",
+
+        "CityAr": "سوهاج"
+    },
+    {
+        "name_en": "Sohag National Museum",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 9:00am to 3:00pm",
+        "CategoryId": 3,
+        "CityEn": "Sohag",
+        "name_ar": "متحف سوهاج القومي",
+"DescriptionEn":"A museum showcasing the history of Upper Egypt, including Pharaonic, Coptic, and Islamic artifacts.",
+
+        "CityAr": "سوهاج"
+    },
+    {
+        "name_en": "Meritamun Temple",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Sohag",
+        "name_ar": "معبد ميريت آمون",
+"DescriptionEn":"A beautiful temple dedicated to the daughter of Ramesses II, featuring stunning reliefs and historical significance.",
+
+        "CityAr": "سوهاج"
+    },
+    {
+        "name_en": "The Red Monastery",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 2,
+        "CityEn": "Sohag",
+        "name_ar": "الدير الأحمر",
+"DescriptionEn":"A beautifully preserved Coptic monastery featuring stunning 5th-century wall paintings and ancient church architecture.",
+
+        "CityAr": "سوهاج"
+    },
+    {
+        "name_en": "The White Monastery",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 2,
+        "CityEn": "Sohag",
+        "name_ar": "الدير الأبيض",
+"DescriptionEn":"A historic Coptic monastery featuring beautiful ancient church architecture and a rich spiritual heritage.",
+
+        "CityAr": "سوهاج"
+    },
+    {
+        "name_en": "Tomb of Tutankhamun",
+        "price_eg_adult": 40.0,
+        "price_eg_student": 20.0,
+        "price_forign_adult": 700.0,
+        "price_forign_student": 350.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقبرة توت عنخ آمون",
+"DescriptionEn":"The famous tomb of the young pharaoh, featuring the iconic golden death mask and intact burial treasures.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Luxor Temple",
+        "price_eg_adult": 40.0,
+        "price_eg_student": 20.0,
+        "price_forign_adult": 500.0,
+        "price_forign_student": 250.0,
+        "VisitingTimeEn": "From 6:00am to 8:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "معبد الأقصر",
+"DescriptionEn":"A majestic temple in the heart of Luxor, built by Amenhotep III and Ramesses II, and connected to Karnak by the Avenue of Sphinxes.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Temple of Tod",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "معبد الطود",
+"DescriptionEn":"A beautiful temple complex dedicated to the god Montu, featuring well-preserved reliefs and a historic location.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Tombs of al-Moalla",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقابر المعلا",
+"DescriptionEn":"Ancient rock-cut tombs featuring beautiful paintings and inscriptions from the Pharaonic period.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Audio guide (Sharm al-Sheikh Museum)",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 30.0,
+        "price_forign_adult": 50.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 10:00 AM to 1:00 PM and From 5:00 PM to 11:00 PM",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "دليل صوتي (متحف شرم الشيخ)",
+        "DescriptionEn":"he audio guide takes visitors through 135 identical replicas from the Tutankhamun tomb, including the golden mask (11 kg of gold) and the golden coffin ",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Temple of Esna",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm Sunday,Tuesday,Friday From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "معبد إسنا",
+"DescriptionEn":"A beautifully preserved Greco-Roman temple featuring impressive columns and stunning reliefs.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Tomb of Rameses V,VI",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقبرة رمسيس الخامس والسادس",
+"DescriptionEn":"A beautifully decorated royal tomb featuring stunning wall paintings and a unique burial chamber.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Valley of the Kings",
+        "price_eg_adult": 60.0,
+        "price_eg_student": 30.0,
+        "price_forign_adult": 750.0,
+        "price_forign_student": 375.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "وادي الملوك",
+"DescriptionEn":"The royal burial ground for Egypt's New Kingdom pharaohs, featuring over 60 beautifully decorated tombs.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Temple of Mut",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "معبد موت",
+"DescriptionEn":"A beautiful temple dedicated to the mother goddess Mut, featuring stunning reliefs and a peaceful setting.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Karnak Temples",
+        "price_eg_adult": 40.0,
+        "price_eg_student": 20.0,
+        "price_forign_adult": 600.0,
+        "price_forign_student": 300.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "معابد الكرنك",
+"DescriptionEn":"The world's largest temple complex, featuring the Great Hypostyle Hall, the Sacred Lake, and the Avenue of Sphinxes.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Temple of Hatshepsut",
+        "price_eg_adult": 40.0,
+        "price_eg_student": 20.0,
+        "price_forign_adult": 440.0,
+        "price_forign_student": 220.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "معبد حتشبسوت",
+"DescriptionEn":"A breathtaking mortuary temple carved into the cliff face, featuring three terraced levels and stunning architecture",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Tomb of Ay",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقبرة آي",
+"DescriptionEn":"The royal tomb of the pharaoh Ay, featuring beautifully preserved wall paintings and a fascinating history.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Ramesseum",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "الرامسيوم",
+"DescriptionEn":"The magnificent mortuary temple of Ramesses II, featuring the famous fallen colossus and beautiful reliefs.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Carter's House and Replica Tomb of Tutankhamun",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 3,
+        "CityEn": "Luxor",
+        "name_ar": "منزل كارتر ونموذج مقبرة توت عنخ آمون",
+"DescriptionEn":"The home of Howard Carter and a replica of the famous tomb, offering insight into the discovery of Tutankhamun's treasures.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Tomb of Ramose",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقبرة رعمس",
+"DescriptionEn":"A beautifully decorated tomb featuring stunning reliefs and insights into the life of a powerful New Kingdom official.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Tomb of Nefertari",
+        "price_eg_adult": 600.0,
+        "price_eg_student": 300.0,
+        "price_forign_adult": 2500.0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقبرة نفرتاري",
+"DescriptionEn":"The most beautiful tomb in Egypt, featuring exceptionally preserved colorful wall paintings and the \"Sistine Chapel of Ancient Egypt.\"",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Valley of the Queens",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "وادي الملكات",
+"DescriptionEn":"The royal burial ground for queens and princes, featuring beautifully decorated tombs with vibrant paintings.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Medinet Habu",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مدينة هابو",
+"DescriptionEn":"The magnificent mortuary temple of Ramesses III, featuring stunning reliefs and well-preserved architecture.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Deir al-Medina",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "دير المدينة",
+"DescriptionEn":"The ancient workers' village of the Valley of the Kings, offering fascinating insights into the lives of tomb builders.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Tomb of Pashedu",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقبرة باشيدو",
+"DescriptionEn":"A beautifully decorated tomb featuring stunning wall paintings and insights into the life of a tomb worker.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Tombs of Menna and Nakht",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقابر منا ونخت",
+"DescriptionEn":"Beautifully decorated tombs featuring vibrant paintings of daily life, farming, and hunting scenes.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Tomb of Sety I",
+        "price_eg_adult": 500.0,
+        "price_eg_student": 250.0,
+        "price_forign_adult": 2000.0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقبرة سيتي الأول",
+"DescriptionEn":"The longest and most beautifully decorated tomb in the Valley of the Kings, featuring stunning raised reliefs.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Tombs of al-Khokha",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقابر الخوخة",
+        "CityAr": "الأقصر",
+        "DescriptionEn":"A group of beautifully decorated tombs featuring stunning reliefs and paintings from the New Kingdom"
+
+    },
+    {
+        "name_en": "Tombs of Userhat and Khonsu",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقابر وسرحات وخونسو",
+        "DescriptionEn":"Beautifully decorated tombs featuring vibrant paintings and insights into the lives of royal officials.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Tomb of Pabasa",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقبرة باباسا",
+"DescriptionEn":"A beautifully decorated tomb featuring stunning reliefs and a fascinating burial chamber.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Tombs of al-Asasif",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقابر العساسيف",
+"DescriptionEn":"A group of beautifully decorated tombs featuring stunning reliefs and inscriptions from the Late Period.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Temple of Sety 1",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "معبد سيتي الأول",
+"DescriptionEn":"The longest and most beautifully decorated tomb in the Valley of the Kings, featuring stunning raised reliefs.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Tombs of Roy and Shuroy",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقابر روي وشوروي",
+"DescriptionEn":"Beautifully decorated tombs featuring vibrant paintings and insights into the lives of ancient Egyptian nobles.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Tombs of Rekhmire and Sennefer",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "مقابر رخمي رع وسنفر",
+"DescriptionEn":"Beautifully decorated tombs featuring stunning reliefs and insights into the lives of powerful New Kingdom officials.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Qurnet Murai",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 120.0,
+        "price_forign_student": 60.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "قرنة مرعي",
+"DescriptionEn":"A group of beautifully decorated tombs featuring stunning reliefs and paintings from the New Kingdom.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Temple of Merenptah",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "معبد مرنبتاح",
+"DescriptionEn":"The mortuary temple of Pharaoh Merenptah, featuring beautiful reliefs and a fascinating historical legacy.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Colossi of Memnon",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Luxor",
+        "name_ar": "تمثالي ممنون",
+"DescriptionEn":"Two massive stone statues of Amenhotep III, standing 18 meters tall and featuring a fascinating acoustic phenomenon.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Luxor Museum",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 400.0,
+        "price_forign_student": 200.0,
+        "VisitingTimeEn": "From 9:00am to 1:00pm From 5:00pm to 8:00pm",
+        "CategoryId": 3,
+        "CityEn": "Luxor",
+        "name_ar": "متحف الأقصر",
+"DescriptionEn":"A modern museum showcasing stunning artifacts from Luxor's ancient history, including statues, reliefs, and royal treasures.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Mummification Museum",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 9:00am to 1:00pm From 5:00pm to 8:00pm",
+        "CategoryId": 3,
+        "CityEn": "Luxor",
+        "name_ar": "متحف التحنيط",
+"DescriptionEn":"A fascinating museum dedicated to the ancient art of mummification, featuring tools, mummies, and ritual objects.",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Temple of Isis",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "معبد إيزيس",
+"DescriptionEn":"A beautiful temple dedicated to the goddess Isis, featuring stunning reliefs and a picturesque island location.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Qubbet al-Hawa",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 7:00am to 4:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "قبة الهوا",
+        "DescriptionEn":"The Dome of the Wind,featuring ancient tombs of nobles and stunning views over the Nile and Aswan.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Audio guide (Luxor Museum)",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 30.0,
+        "price_forign_adult": 50.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 2:00pm and From 5:00pm to 8:00pm",
+        "CategoryId": 3,
+        "CityEn": "Luxor",
+        "name_ar": "دليل صوتي (متحف الأقصر)",
+        "DescriptionEn": "No Description Found",
+
+        "CityAr": "الأقصر"
+    },
+    {
+        "name_en": "Monastery of St Simeon",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 2,
+        "CityEn": "Aswan",
+        "name_ar": "دير الأنبا سمعان",
+"DescriptionEn":"A beautifully preserved Coptic monastery in the desert, featuring ancient church architecture and stunning Nile views.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Temple of Edfu",
+        "price_eg_adult": 40.0,
+        "price_eg_student": 20.0,
+        "price_forign_adult": 550.0,
+        "price_forign_student": 275.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm Sunday, Wednesday From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "معبد إدفو",
+"DescriptionEn":"One of Egypt's most complete temples, dedicated to the falcon god Horus, featuring massive pylons and stunning reliefs.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Abu Simbel Temples",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 750.0,
+        "price_forign_student": 375.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "معبدي أبو سمبل",
+"DescriptionEn":"Two massive rock-cut temples built by Ramesses II, featuring the famous solar alignment phenomenon and stunning statues.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Panorama of the Temples of Philae",
+        "price_eg_adult": 40.0,
+        "price_eg_student": 20.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 7:00am to 4:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "بانوراما معابد فيلة",
+"DescriptionEn":"A breathtaking viewpoint offering panoramic views of the beautiful Philae Temple complex on Agilkia Island.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Temple of Philae",
+        "price_eg_adult": 40.0,
+        "price_eg_student": 20.0,
+        "price_forign_adult": 550.0,
+        "price_forign_student": 275.0,
+        "VisitingTimeEn": "From 7:00am to 4:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "معبد فيلة",
+"DescriptionEn":"A beautiful temple complex on Agilkia Island dedicated to the goddess Isis, featuring stunning reliefs and water views.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Temple of Kom Ombo",
+        "price_eg_adult": 40.0,
+        "price_eg_student": 20.0,
+        "price_forign_adult": 450.0,
+        "price_forign_student": 225.0,
+        "VisitingTimeEn": "From 7:00am to 9:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "معبد كوم أمبو",
+"DescriptionEn":"A unique double temple dedicated to the crocodile god Sobek and the falcon god Horus, featuring beautiful reliefs.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Celebrating the Sun Alignment on 22 October/22 February",
+        "price_eg_adult": 60.0,
+        "price_eg_student": 20.0,
+        "price_forign_adult": 1200.0,
+        "price_forign_student": 600.0,
+        "VisitingTimeEn": "From 6:00am to 5:00pm (Plus alignment Time)",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "الاحتفال بتعامد الشمس 22 أكتوبر/22 فبراير",
+"DescriptionEn":"A spectacular solar phenomenon occurring twice a year at Abu Simbel, when sunlight illuminates the inner statues.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Gebel al-Silsila",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 7:00am to 4:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "جبل السلسلة",
+"DescriptionEn":"An ancient quarry site featuring rock-cut shrines and inscriptions dedicated to the gods of the Nile.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Elephantine Island",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 8:00am to 4:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "جزيرة إلفنتين",
+"DescriptionEn":"A beautiful island in the Nile featuring ancient temple ruins, a Nubian museum, and stunning views of Aswan.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Nubia Museum",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 400.0,
+        "price_forign_student": 200.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm Thursday, Friday From 9:00am to 5:00pm From 6:00pm to 9:00pm",
+        "CategoryId": 3,
+        "CityEn": "Aswan",
+        "name_ar": "متحف النوبة",
+"DescriptionEn":"A stunning museum showcasing the rich history and culture of Nubia, featuring rescued artifacts from Lake Nasser.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Crocodile Museum Within KomOmbo Temple",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 7:00am to 9:00pm",
+        "CategoryId": 3,
+        "CityEn": "Aswan",
+        "name_ar": "متحف التمساح داخل معبد كوم أمبو",
+"DescriptionEn":"A fascinating museum inside the Kom Ombo Temple complex, featuring mummified crocodiles and artifacts dedicated to Sobek",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Sehel Island",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 7:00am to 4:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "جزيرة سهيل",
+"DescriptionEn":"A beautiful Nile island featuring ancient inscriptions and a peaceful Nubian village atmosphere.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Temples of Wadi al-Sebua",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 7:00am to 4:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "معابد وادي السبوع",
+"DescriptionEn":"Two rock-cut temples featuring beautiful reliefs and a fascinating history of the Nubian region.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Al-Kab",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 7:00am to 5:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "الكاب",
+"DescriptionEn":"An ancient city featuring beautiful temple ruins and rock-cut tombs from the Pharaonic period.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Temples of Amada",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 150.0,
+        "price_forign_student": 75.0,
+        "VisitingTimeEn": "From 7:00am to 4:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "معابد عمدا",
+"DescriptionEn":"One of Nubia's oldest temples, featuring beautiful reliefs and a unique architectural style.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Unfinished Obelisk",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 220.0,
+        "price_forign_student": 110.0,
+        "VisitingTimeEn": "From 7:00am to 4:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "المسلة الناقصة",
+"DescriptionEn":"A massive granite obelisk abandoned in the quarry, offering insight into ancient Egyptian stone-working techniques.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Temple of Kalabsha",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 7:00am to 4:00pm",
+        "CategoryId": 4,
+        "CityEn": "Aswan",
+        "name_ar": "معبد كلابشة",
+"DescriptionEn":"A well-preserved Roman-era temple featuring beautiful reliefs and a stunning location on Lake Nasser.",
+
+        "CityAr": "أسوان"
+    },
+    {
+        "name_en": "Monastery of St Paul",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 8:00am to 6:00pm every Thursdays, Fridays, and Saturdays of each week",
+        "CategoryId": 2,
+        "CityEn": "Red Sea",
+        "name_ar": "دير الأنبا بولا",
+"DescriptionEn":"A historic Coptic monastery in the desert, featuring beautiful church architecture and a peaceful spiritual atmosphere.",
+
+        "CityAr": "البحر الأحمر"
+    },
+    {
+        "name_en": "St Catherine's Monastery",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 8:45am to 12:45pm Friday From 10:30am to 11:30pm Closed on Sunday",
+        "CategoryId": 2,
+        "CityEn": "South Sina",
+        "name_ar": "دير سانت كاترين",
+"DescriptionEn":"One of the oldest working Christian monasteries in the world, located at the foot of Mount Sinai with stunning icons and manuscripts.",
+
+        "CityAr": "جنوب سيناء"
+    },
+    {
+        "name_en": "Audio guide (Hurghada Museum)",
+        "price_eg_adult": 30.0,
+        "price_eg_student": 30.0,
+        "price_forign_adult": 50.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 10:00am to 1:00pm From 5:00pm to 11:00pm",
+        "CategoryId": 3,
+        "CityEn": "Red Sea",
+        "name_ar": "دليل صوتي (متحف الغردقة)",
+        "DescriptionEn":"No Description Found",
+
+        "CityAr": "البحر الأحمر"
+    },
+    {
+        "name_en": "Salah al-Din Citadel (Taba)",
+        "price_eg_adult": 20.0,
+        "price_eg_student": 10.0,
+        "price_forign_adult": 400.0,
+        "price_forign_student": 200.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "South Sina",
+        "name_ar": "قلعة صلاح الدين (طابا)",
+        "DescriptionEn":"A historic fortress in Taba on the Red Sea coast, featuring beautiful views and a rich military history.",
+
+        "CityAr": "جنوب سيناء"
+    },
+    {
+        "name_en": "Al-Quseir Citadel",
+        "price_eg_adult": 10.0,
+        "price_eg_student": 5.0,
+        "price_forign_adult": 100.0,
+        "price_forign_student": 50.0,
+        "VisitingTimeEn": "From 9:00am to 5:00pm",
+        "CategoryId": 1,
+        "CityEn": "Red Sea",
+        "name_ar": "قلعة القصير",
+     "DescriptionEn":"A historic fortress on the Red Sea coast, featuring Ottoman-era architecture and stunning sea views.",
+   
+        "CityAr": "البحر الأحمر"
+    },
+    {
+        "name_en": "Monastery of St Anthony",
+        "price_eg_adult": 0,
+        "price_eg_student": 0,
+        "price_forign_adult": 0,
+        "price_forign_student": 0,
+        "VisitingTimeEn": "From 4:00am to 6:00pm every Fridays,Saturdays, and Sundays of each week",
+        "CategoryId": 2,
+        "CityEn": "Red Sea",
+        "name_ar": "دير الأنبا أنطونيوس",
+"DescriptionEn":"The oldest Coptic monastery in Egypt, featuring beautiful church architecture and a rich spiritual heritage.",
+
+        "CityAr": "البحر الأحمر"
+    },
+    {
+        "name_en": "Hurghada Museum",
+        "price_eg_adult": 80.0,
+        "price_eg_student": 40.0,
+        "price_forign_adult": 200.0,
+        "price_forign_student": 100.0,
+        "VisitingTimeEn": "From 10:00am to 1:00pm From 5:00pm to 11:00pm",
+        "CategoryId": 3,
+        "CityEn": "Red Sea",
+        "name_ar": "متحف الغردقة",
+"DescriptionEn":"The Red Sea's first archaeological museum, showcasing carefully selected artifacts from various Egyptian historical periods.",
+
+        "CityAr": "البحر الأحمر"
+    }
+]
