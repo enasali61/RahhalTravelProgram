@@ -24,7 +24,7 @@ This structure ensures separation of concerns, maintainability, and testability.
 
 -Authentication
 JWT-based login, registration, role-based access (Admin/User), and password reset via email.
-<img width="1384" height="637" alt="1" src="https://github.com/user-attachments/assets/e07e0321-c327-489d-8952-aad9652dc2c5" />
+<img width="1384" height="533" alt="1" src="https://github.com/user-attachments/assets/d6b53b44-e739-4cee-a06f-8b638a922412" />
 
 -AI Integration
 Image Recognition – Identify landmarks from photos
@@ -36,8 +36,10 @@ Full CRUD for tourist places with multilingual names, category filtering, image 
 
 -Trip Planning
 Create, edit, and delete trips. Add or remove places, generate daily schedules, and calculate total costs.
-<img width="1382" height="771" alt="2" src="https://github.com/user-attachments/assets/8842b865-3f30-445c-9c5d-d320722281b2" />
-<img width="1723" height="687" alt="3" src="https://github.com/user-attachments/assets/a5c2f20e-0083-4137-935e-f58567cef257" />
+<img width="255" height="811" alt="c" src="https://github.com/user-attachments/assets/daa6b56f-cbfa-4e4a-8169-381c0a337316" />
+<img width="1262" height="549" alt="E" src="https://github.com/user-attachments/assets/a6ba8a1b-510b-4ba4-9a21-b9c7f64ce93c" />
+<img width="1258" height="623" alt="d" src="https://github.com/user-attachments/assets/0481ed97-6d90-4c06-967f-2c7f2599d448" />
+
 
 -Basket (Redis)
 Temporary storage for places before confirming a trip. Redis ensures fast performance and enrichment fetches full place details from SQL.
@@ -50,10 +52,12 @@ Save favorite places, toggle favorites, and retrieve saved list.
 
 -Admin Dashboard
 Dashboard statistics (users, places, trips, scans) and full place/user management.
-<img width="1661" height="603" alt="4" src="https://github.com/user-attachments/assets/dcf13d98-9dcd-4bce-bf93-e7d706a6b935" />
-
+<img width="1661" height="550" alt="4" src="https://github.com/user-attachments/assets/ce50fa9f-e520-4835-bbe1-e44d6c9f0d6a" />
 -Backend Demo
 Swagger UI: https://localhost:7022/swagger
-<img width="907" height="864" alt="Screenshot (337)" src="https://github.com/user-attachments/assets/678def80-bd37-4c5d-8e9f-b21c55915449" />
-<img width="894" height="879" alt="Screenshot (336)" src="https://github.com/user-attachments/assets/3e56b027-fc75-45ea-a3f0-d6fc6d05a944" />
+-Project Screenshots
 <img width="900" height="868" alt="Screenshot (335)" src="https://github.com/user-attachments/assets/24efc5aa-3cc3-4bc6-9a02-f67de7718dc1" />
+<img width="894" height="879" alt="Screenshot (336)" src="https://github.com/user-attachments/assets/3e56b027-fc75-45ea-a3f0-d6fc6d05a944" />
+<img width="907" height="864" alt="Screenshot (337)" src="https://github.com/user-attachments/assets/678def80-bd37-4c5d-8e9f-b21c55915449" />
+
+Educational project – Graduation Project
